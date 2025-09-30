@@ -1,0 +1,13 @@
+{
+  "env": {
+    "NEXT_PUBLIC_API_URL": "https://invosmart-backend-production.up.railway.app/api/v1"
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://invosmart-backend-production.up.railway.app/api/$1"
+    }
+  ]
+}
+
+
