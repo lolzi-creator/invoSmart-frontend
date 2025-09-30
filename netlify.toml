@@ -12,16 +12,4 @@
 
 [dev]
   command = "npm run dev"
-
   publish = ".next"
-
-[build.environment]
-  NEXT_PUBLIC_API_URL = "https://invosmart-backend-production.up.railway.app/api/v1"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[dev]
-  command = "npm run dev"
